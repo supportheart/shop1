@@ -1,0 +1,121 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
+  border-bottom: 5px solid black;
+ }
+ 
+ .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
+  border-top: 5px solid #000;
+ }
+/*
+
+<div class="arrow-up"> </div>
+ 
+<div class="arrow-down"> </div>*/
+main {
+    margin-top: 100px;
+}
+main > h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+div.join_wrap {
+    width: 570px;
+    margin: auto;
+}
+
+.join_wrap {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 55px 0;
+}
+.join_wrap >article>div {
+    display: flex;
+    border: 
+    
+}
+.join_wrap >article>div> div:nth-child(1) {
+    width:178px;
+    height: 65px;
+}
+.join_wrap >article>div> div:nth-child(1){
+    box-sizing: border-box;
+    display:block;
+    line-height: 65px;
+    padding-left: 46px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.join_wrap >article>div> div:nth-child(1) >label {
+    position: relative;
+    bottom: 10px;
+}
+.join_wrap >article>div> div:nth-child(2) {
+    width: 392px;
+    height: 65px;
+}
+.join_wrap >article>div> div:nth-child(2)>input {
+    width: 250px;
+    height: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.num {
+    display: flex;
+}
+.num > select {
+    margin-top: 5px;
+    width: 65px;
+    height: 28px;
+}
+.num > span {
+    padding: 0 11px;
+}
+div.join_wrap > article > div:nth-child(5) > div.num > input{
+    height: 28px;
+    width: 65px;
+}
+
+/*수신여부*/
+.checkbox {
+    display: flex;
+}
+.checkbox > div {
+    line-height: 44px;
+    padding: 0 20px;
+}
+div.join_wrap > article > div:nth-child(6) > div.checkbox > input[type=radio] {
+    width: 50%;
+}
+
+
+/*생일*/
+div.join_wrap > article > div:nth-child(7) > div:nth-child(2) {
+    display: flex;
+}
+div.join_wrap > article > div:nth-child(7) > div:nth-child(2) select{
+    padding-left:10px;
+    
+}
+div.join_wrap > article > div:nth-child(7) > div:nth-child(2) select > option {
+}
+div.join_wrap > article > div:nth-child(7) > div:nth-child(2) input {
+    width: 65px;
+}
+div.join_wrap > article > div:nth-child(7) > div:nth-child(2) > div {
+    padding-right: 20px;
+    line-height: 44px;
+}

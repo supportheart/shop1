@@ -1,0 +1,64 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+main {
+    width: 590px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main >h1.title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+main > ul.tab_btn {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 36px;
+}
+main > ul.tab_btn > li {
+    width: 50%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-bottom: 5px solid #000;
+}
+main > ul.tab_btn > li > a {
+    display: block;
+    font-size: 27px;
+    padding: 12px 70px;
+    color: #000;
+}
+main > ul.tab_btn > li.tab_on {
+    background-color: #000;
+}
+main > ul.tab_btn > li.tab_on > a {
+    color: #fff;
+}
+.tabbox > div.tab_first>div {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom:1px solid #CECECE;
+}
+.tabbox > div.tab_first>div > label {
+    display: block;
+    width: 64px;
+    line-height: 60px;
+    text-align: center;
+}
+.tabbox > div.tab_first>div>input {
+    width: 85%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.tabbox > div.tab_first > button {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    line-height: 73px;
+}
